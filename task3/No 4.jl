@@ -113,7 +113,7 @@ end
 md"Попробуем использовать только часть сингулярных чисел:"
 
 # ╔═╡ 2dfc1756-c540-4704-b7fd-39a4a002adb2
-plot_vec(approx_lsolve(479), title = "Восстановленное изображение, 479 сингулярных чисел", topmargin = 20Plots.px)
+plot_vec(approx_lsolve(360), title = "Восстановленное изображение, 360 сингулярных чисел", topmargin = 20Plots.px)
 
 # ╔═╡ 6d662947-91b8-4155-9065-5002a5d7dbb7
 plot_vec(approx_lsolve(125), title = "Восстановленное изображение, 125 сингулярных чисел", topmargin = 20Plots.px)
